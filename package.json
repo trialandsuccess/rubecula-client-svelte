@@ -1,0 +1,20 @@
+{
+    "name": "rubecula-client",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "scripts": {
+        "dev": "rollup -c -w --environment BUILD:development",
+        "build": "rollup -c --environment BUILD:production",
+        "pretty": "prettier . --write --tab-width 4 --print-width 120"
+    },
+    "author": "Robin van der Noord",
+    "license": "MIT",
+    "devDependencies": {
+        "@rubecula/rollup-setup": "^0.1.4",
+        "rollup": "^2.70.1"
+    },
+    "optionalDependencies": {
+        "prettier": "^2.6.1"
+    }
+}

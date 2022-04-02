@@ -1,0 +1,2 @@
+ssl: 0  # disable
+log: 5  # full log level
